@@ -1,0 +1,28 @@
+.App {
+  min-height: 100vh;
+}
+
+.otp-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 25px;
+}
+
+.otp-input {
+  width: 55px !important;
+  height: 65px;
+  text-align: center;
+  font-size: 24px;
+  background-color: #111214;
+  color: white;
+  border: 1px solid #343840;
+  border-radius: 8px;
+}
+
+.otp-input:focus {
+  border-color: #4d8dff;
+  box-shadow: none;
+  background-color: #111214;
+  color: white;
+}
